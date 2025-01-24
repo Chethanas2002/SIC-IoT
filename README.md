@@ -1,11 +1,13 @@
-**Water Level Monitoring System**
+**Water Level Monitoring System:**
 
-       **Description**
+       **Description:**
+       
         This project is designed to monitor water levels in a tank and control a water pump using an ESP8266 microcontroller. 
         It utilizes an ultrasonic sensor for water level measurement, an LCD display for local feedback,
         and Blynk for IoT-based monitoring and control.
 
-**Features**
+**Features:**
+
 Real-time water level monitoring using an ultrasonic sensor.
 Visual representation of water levels using LEDs and an LCD display.
 IoT integration with Blynk for remote monitoring and pump control.
@@ -14,6 +16,7 @@ Alerts for critical water levels.
 
 
 **Hardware Requirements:**
+
 ESP8266 microcontroller (e.g., NodeMCU)
 Ultrasonic sensor (e.g., HC-SR04)
 LCD display with I2C module
@@ -25,14 +28,16 @@ Breadboard or PCB
 Wi-Fi network
 
 
-**Software Requirements**
+**Software Requirements:**
+
 Arduino IDE
 Blynk app (for iOS/Android)
 ESP8266 board package (installed in Arduino IDE)
 
 
 
-**Setup Instructions**
+**Setup Instructions:**
+
 
       **1.Blynk Setup:**
           Create a new project in the Blynk app.
@@ -59,7 +64,8 @@ ESP8266 board package (installed in Arduino IDE)
           Supply power to the ESP8266 and connected components.
 
 
-**Usage**
+**Usage:**
+
 Launch the Blynk app and connect to the project.
 The LCD will display the current water level, while the LEDs provide a quick visual indication.
 Use the Blynk app to monitor the water level and manually control the pump.
