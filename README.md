@@ -1,6 +1,8 @@
 **Water Level Monitoring System**
-**Description**
-This project is designed to monitor water levels in a tank and control a water pump using an ESP8266 microcontroller. It utilizes an ultrasonic sensor for water level measurement, an LCD display for local feedback, and Blynk for IoT-based monitoring and control.
+
+       **Description**
+        This project is designed to monitor water levels in a tank and control a water pump using an ESP8266 microcontroller. It utilizes an ultrasonic sensor for 
+        water level measurement, an LCD display for local feedback, and Blynk for IoT-based monitoring and control.
 
 **Features**
 Real-time water level monitoring using an ultrasonic sensor.
@@ -30,29 +32,29 @@ ESP8266 board package (installed in Arduino IDE)
 
 
 **Setup Instructions**
-**1.Blynk Setup:**
-Create a new project in the Blynk app.
-Add required widgets (e.g., buttons and value displays).
-Note down the Blynk Auth Token.
+      **1.Blynk Setup:**
+          Create a new project in the Blynk app.
+          Add required widgets (e.g., buttons and value displays).
+          Note down the Blynk Auth Token.
 
 
-**2.Hardware Connections:**
-Connect the ultrasonic sensor's Trig and Echo pins to the ESP8266.
-Connect the LEDs to the appropriate pins on the ESP8266.
-Connect the relay to the pump and ESP8266.
-Follow the pin mapping defined in the code.
+      **2.Hardware Connections:**
+          Connect the ultrasonic sensor's Trig and Echo pins to the ESP8266.
+          Connect the LEDs to the appropriate pins on the ESP8266.
+          Connect the relay to the pump and ESP8266.
+          Follow the pin mapping defined in the code.
 
 
-**3.Code Upload:**
-Install necessary libraries in Arduino IDE:
-LiquidCrystal_I2C
-BlynkSimpleEsp8266
-Replace placeholders in the code with your Wi-Fi credentials and Blynk Auth Token.
-Upload the code to the ESP8266.
+      **3.Code Upload:**
+          Install necessary libraries in Arduino IDE:
+          LiquidCrystal_I2C
+          BlynkSimpleEsp8266
+          Replace placeholders in the code with your Wi-Fi credentials and Blynk Auth Token.
+          Upload the code to the ESP8266.
 
 
-**4.Power the System:**
-Supply power to the ESP8266 and connected components.
+      **4.Power the System:**
+          Supply power to the ESP8266 and connected components.
 
 
 **Usage**
